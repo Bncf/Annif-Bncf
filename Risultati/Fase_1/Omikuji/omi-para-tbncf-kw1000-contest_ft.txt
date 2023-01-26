@@ -1,0 +1,31 @@
+2022-06-28T13:56:04.895Z INFO  [omikuji::model] Loading model from data/projects/omi-para-tbncf/omikuji-model...
+2022-06-28T13:56:04.895Z INFO  [omikuji::model] Loading model settings from data/projects/omi-para-tbncf/omikuji-model/settings.json...
+2022-06-28T13:56:04.895Z INFO  [omikuji::model] Loaded model settings Settings { n_features: 2812, classifier_loss_type: Hinge }...
+2022-06-28T13:56:04.895Z INFO  [omikuji::model] Loading tree from data/projects/omi-para-tbncf/omikuji-model/tree1.cbor...
+2022-06-28T13:56:04.901Z INFO  [omikuji::model] Loading tree from data/projects/omi-para-tbncf/omikuji-model/tree0.cbor...
+2022-06-28T13:56:04.907Z INFO  [omikuji::model] Loading tree from data/projects/omi-para-tbncf/omikuji-model/tree2.cbor...
+2022-06-28T13:56:04.912Z INFO  [omikuji::model] Loaded model with 3 trees; it took 0.02s
+Precision (doc avg):          	0.018000000000000002
+Recall (doc avg):             	0.12166666666666666
+F1 score (doc avg):           	0.030479520479520482
+Precision (subj avg):         	2.510806787570612e-05
+Recall (subj avg):            	4.5400889857441204e-05
+F1 score (subj avg):          	2.9377046378344307e-05
+Precision (weighted subj avg):	0.021423248882265274
+Recall (weighted subj avg):   	0.07377049180327869
+F1 score (weighted subj avg): 	0.02941176470588235
+Precision (microavg):         	0.018
+Recall (microavg):            	0.07377049180327869
+F1 score (microavg):          	0.02893890675241157
+F1@5:                         	0.048809523809523817
+NDCG:                         	0.1137808411002619
+NDCG@5:                       	0.11099971751004639
+NDCG@10:                      	0.1137808411002619
+Precision@1:                  	0.02
+Precision@3:                  	0.03333333333333333
+Precision@5:                  	0.032
+LRAP:                         	0.08836753533702593
+True positives:               	9
+False positives:              	491
+False negatives:              	113
+Documents evaluated:          	50

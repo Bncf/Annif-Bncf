@@ -1,0 +1,24 @@
+Precision (doc avg):          	0.0
+Recall (doc avg):             	0.0
+F1 score (doc avg):           	0.0
+Precision (subj avg):         	0.0
+Recall (subj avg):            	0.0
+F1 score (subj avg):          	0.0
+Precision (weighted subj avg):	0.0
+Recall (weighted subj avg):   	0.0
+F1 score (weighted subj avg): 	0.0
+Precision (microavg):         	0.0
+Recall (microavg):            	0.0
+F1 score (microavg):          	0.0
+F1@5:                         	0.0
+NDCG:                         	0.04
+NDCG@5:                       	0.04
+NDCG@10:                      	0.04
+Precision@1:                  	0.0
+Precision@3:                  	0.0
+Precision@5:                  	0.0
+LRAP:                         	0.04003692605708408
+True positives:               	0
+False positives:              	500
+False negatives:              	122
+Documents evaluated:          	50

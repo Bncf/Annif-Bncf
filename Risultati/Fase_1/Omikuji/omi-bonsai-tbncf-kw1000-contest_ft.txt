@@ -1,0 +1,31 @@
+2022-06-28T14:33:48.137Z INFO  [omikuji::model] Loading model from data/projects/omi-bonsai-tbncf/omikuji-model...
+2022-06-28T14:33:48.137Z INFO  [omikuji::model] Loading model settings from data/projects/omi-bonsai-tbncf/omikuji-model/settings.json...
+2022-06-28T14:33:48.137Z INFO  [omikuji::model] Loaded model settings Settings { n_features: 2812, classifier_loss_type: Hinge }...
+2022-06-28T14:33:48.137Z INFO  [omikuji::model] Loading tree from data/projects/omi-bonsai-tbncf/omikuji-model/tree1.cbor...
+2022-06-28T14:33:48.142Z INFO  [omikuji::model] Loading tree from data/projects/omi-bonsai-tbncf/omikuji-model/tree0.cbor...
+2022-06-28T14:33:48.147Z INFO  [omikuji::model] Loading tree from data/projects/omi-bonsai-tbncf/omikuji-model/tree2.cbor...
+2022-06-28T14:33:48.152Z INFO  [omikuji::model] Loaded model with 3 trees; it took 0.01s
+Precision (doc avg):          	0.014000000000000002
+Recall (doc avg):             	0.06
+F1 score (doc avg):           	0.021914751914751916
+Precision (subj avg):         	5.668232309474478e-05
+Recall (subj avg):            	7.999204403453927e-05
+F1 score (subj avg):          	6.036679842084893e-05
+Precision (weighted subj avg):	0.04053651266766021
+Recall (weighted subj avg):   	0.05737704918032787
+F1 score (weighted subj avg): 	0.044267885343731224
+Precision (microavg):         	0.014
+Recall (microavg):            	0.05737704918032787
+F1 score (microavg):          	0.022508038585209004
+F1@5:                         	0.01611111111111111
+NDCG:                         	0.07785931143731269
+NDCG@5:                       	0.064930231664988
+NDCG@10:                      	0.07785931143731269
+Precision@1:                  	0.04
+Precision@3:                  	0.013333333333333332
+Precision@5:                  	0.012
+LRAP:                         	0.060645918460001835
+True positives:               	7
+False positives:              	493
+False negatives:              	115
+Documents evaluated:          	50

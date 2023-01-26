@@ -1,0 +1,31 @@
+2022-10-24T16:57:51.296Z INFO  [omikuji::model] Loading model from data/projects/omi-bonsai-bncf/omikuji-model...
+2022-10-24T16:57:51.296Z INFO  [omikuji::model] Loading model settings from data/projects/omi-bonsai-bncf/omikuji-model/settings.json...
+2022-10-24T16:57:51.296Z INFO  [omikuji::model] Loaded model settings Settings { n_features: 80895, classifier_loss_type: Hinge }...
+2022-10-24T16:57:51.296Z INFO  [omikuji::model] Loading tree from data/projects/omi-bonsai-bncf/omikuji-model/tree1.cbor...
+2022-10-24T16:57:51.548Z INFO  [omikuji::model] Loading tree from data/projects/omi-bonsai-bncf/omikuji-model/tree0.cbor...
+2022-10-24T16:57:51.810Z INFO  [omikuji::model] Loading tree from data/projects/omi-bonsai-bncf/omikuji-model/tree2.cbor...
+2022-10-24T16:57:52.066Z INFO  [omikuji::model] Loaded model with 3 trees; it took 0.77s
+Precision (doc avg):          	0.15533333333333332
+Recall (doc avg):             	0.30524603174603177
+F1 score (doc avg):           	0.20499230290406756
+Precision (subj avg):         	0.0005271785254963325
+Recall (subj avg):            	0.0006551401302831803
+F1 score (subj avg):          	0.0005582412512273437
+Precision (weighted subj avg):	0.2350253370761183
+Recall (weighted subj avg):   	0.3033854166666667
+F1 score (weighted subj avg): 	0.25222990785587535
+Precision (microavg):         	0.15533333333333332
+Recall (microavg):            	0.3033854166666667
+F1 score (microavg):          	0.2054673721340388
+F1@5:                         	0.227003367003367
+NDCG:                         	0.2811005497571304
+NDCG@5:                       	0.24284771399037433
+NDCG@10:                      	0.2811005497571304
+Precision@1:                  	0.2733333333333333
+Precision@3:                  	0.23777777777777775
+Precision@5:                  	0.22933333333333333
+LRAP:                         	0.16694918986531557
+True positives:               	233
+False positives:              	1267
+False negatives:              	535
+Documents evaluated:          	150

@@ -1,0 +1,31 @@
+2022-10-24T10:36:39.632Z INFO  [omikuji::model] Loading model from data/projects/omi-bonsai-bncf/omikuji-model...
+2022-10-24T10:36:39.632Z INFO  [omikuji::model] Loading model settings from data/projects/omi-bonsai-bncf/omikuji-model/settings.json...
+2022-10-24T10:36:39.632Z INFO  [omikuji::model] Loaded model settings Settings { n_features: 80895, classifier_loss_type: Hinge }...
+2022-10-24T10:36:39.632Z INFO  [omikuji::model] Loading tree from data/projects/omi-bonsai-bncf/omikuji-model/tree1.cbor...
+2022-10-24T10:36:39.892Z INFO  [omikuji::model] Loading tree from data/projects/omi-bonsai-bncf/omikuji-model/tree0.cbor...
+2022-10-24T10:36:40.158Z INFO  [omikuji::model] Loading tree from data/projects/omi-bonsai-bncf/omikuji-model/tree2.cbor...
+2022-10-24T10:36:40.415Z INFO  [omikuji::model] Loaded model with 3 trees; it took 0.78s
+Precision (doc avg):          	0.11066666666666668
+Recall (doc avg):             	0.28633333333333333
+F1 score (doc avg):           	0.1558884644766998
+Precision (subj avg):         	0.003160178704492229
+Recall (subj avg):            	0.0034497644686289817
+F1 score (subj avg):          	0.0031241927705584894
+Precision (weighted subj avg):	0.2981265605838985
+Recall (weighted subj avg):   	0.2832764505119454
+F1 score (weighted subj avg): 	0.2712717269457884
+Precision (microavg):         	0.11066666666666666
+Recall (microavg):            	0.2832764505119454
+F1 score (microavg):          	0.15915627996164905
+F1@5:                         	0.2033049543049543
+NDCG:                         	0.28210484351371384
+NDCG@5:                       	0.26179706808109904
+NDCG@10:                      	0.28210484351371384
+Precision@1:                  	0.3466666666666667
+Precision@3:                  	0.23555555555555555
+Precision@5:                  	0.18533333333333335
+LRAP:                         	0.19807787763557147
+True positives:               	166
+False positives:              	1334
+False negatives:              	420
+Documents evaluated:          	150
